@@ -10,6 +10,6 @@ MVC divides the related program logic into three interconnected elements:
 
 1. **Model**: interacts with the database. It receives, stores and retrieves data for the user.
 2. **View**: displays information to the user and integrates data from the controller.
-3. **Controller**: *sends and receives data from the model and passes to the view.
+3. **Controller**: sends and receives data from the model and passes to the view.
 
 ![](mvc.png)
