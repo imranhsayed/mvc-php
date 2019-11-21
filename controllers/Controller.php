@@ -3,6 +3,7 @@
 	 class Controller {
 
 	 	public static function CreateView( $viewname ) {
-	 		echo "view created";
+	 		include_once './views/' . $viewname . '.php';
 	    }
+
 	 }

@@ -1,5 +1,6 @@
 <?php
-echo $_GET['url'];
+
+echo 'URL: ' . $_GET['url'];
 
 spl_autoload_register(function ( $classname ) {
 

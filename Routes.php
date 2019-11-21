@@ -1,5 +1,9 @@
 <?php
 
+Route::set( 'index.php', function () {
+	AboutUs::CreateView( 'Index' );
+} );
+
 Route::set( 'about-us', function () {
 	AboutUs::CreateView( 'AboutUs' );
 } );
