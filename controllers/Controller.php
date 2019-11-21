@@ -2,7 +2,7 @@
 
 	 class Controller {
 
-	 	public static function CreateView() {
+	 	public static function CreateView( $viewname ) {
 	 		echo "view created";
 	    }
 	 }
