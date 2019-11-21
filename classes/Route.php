@@ -6,9 +6,8 @@ class Route {
 
 	public static function set( $route, $function ) {
 
-		self::$valid_routes = $route;
+		self::$valid_routes[] = $route;
 
-		echo 'yesy';
 		print_r( self::$valid_routes );
 
 	}

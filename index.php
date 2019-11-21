@@ -7,3 +7,5 @@ spl_autoload_register(function ( $classname ) {
 });
 
 new Route();
+
+include_once 'Routes.php';
