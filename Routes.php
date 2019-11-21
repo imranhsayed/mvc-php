@@ -1,11 +1,11 @@
 <?php
 
 Route::set( 'about-us', function () {
-	echo 'About us';
+	AboutUs::CreateView();
 } );
 
 Route::set( 'contact-us', function () {
-	echo 'Contact us';
+	ContactUs::CreateView();
 } );
 
 

@@ -8,7 +8,9 @@ class Route {
 
 		self::$valid_routes[] = $route;
 
-		print_r( self::$valid_routes );
+		if ( $route === $_GET['url'] ) {
+			$function->__invoke();
+		}
 
 	}
 }
